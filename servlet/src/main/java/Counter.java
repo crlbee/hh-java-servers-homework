@@ -15,11 +15,11 @@ public class Counter {
         counter.incrementAndGet();
     }
 
-    public void decrementCounterByValue(int value){
+    public void decrementByValue(int value){
         counter.addAndGet(-value);
     }
 
-    public void resetCounter(){
+    public void reset(){
         counter.set(0);
     }
 }
